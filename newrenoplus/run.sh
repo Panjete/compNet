@@ -5,16 +5,16 @@ mkdir part2a
 mkdir part2b
 mkdir part3
 
-./waf --run "scratch/Part1_334 --transport_prot=TcpVegas" > part1/vegas.dat 2>&1 &
+./waf --run "scratch/part1 --transport_prot=TcpVegas" > part1/vegas.dat 2>&1 &
 echo "TCP Vegas Data Generated"
 wait
-./waf --run "scratch/Part1_334 --transport_prot=TcpVeno" > part1/veno.dat 2>&1 &
+./waf --run "scratch/part1 --transport_prot=TcpVeno" > part1/veno.dat 2>&1 &
 echo "TCP Veno Data Generated"
 wait
-./waf --run "scratch/Part1_334 --transport_prot=TcpNewReno" > part1/newreno.dat 2>&1 &
+./waf --run "scratch/part1 --transport_prot=TcpNewReno" > part1/newreno.dat 2>&1 &
 echo "TCP NewReno Data Generated"
 wait
-./waf --run "scratch/Part1_334 --transport_prot=TcpWestwood" > part1/westwood.dat 2>&1 &
+./waf --run "scratch/part1 --transport_prot=TcpWestwood" > part1/westwood.dat 2>&1 &
 echo "TCP WestWood Data Generated"
 wait 
 
