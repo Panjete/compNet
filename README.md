@@ -1,4 +1,4 @@
-# compNet
+# Computer Networks - Congestion Control Analysis and File Sharing
 
 ## TCP NewRenoPlus
 
@@ -12,6 +12,10 @@
 - Add `TcpNewRenoPlus.cc` and `TcpNewRenoPlus.h` to `ns3`'s TCP files to use it for Congestion Control.
 
 - `tcp_protocols.pdf` presents the complete analysis on the performance of these protocols.
+
+
+![cwind](https://github.com/Panjete/compNet/assets/103451209/fc5fb5fc-a4df-4900-a4fe-aca9366a3ee1)
+
 
 ## Peer-Server-Peer Distribution Mechanism
 
